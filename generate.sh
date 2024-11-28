@@ -35,3 +35,4 @@ command_error_exit sed -i "s/name_space/${namespace}/g" `ls .`
 command_error_exit sed -i "s/project_name/${project_name}/g" `ls .`
 
 echo "create module ${project_name} -- ${namespace} ok" 
+echo "test"
